@@ -50,5 +50,6 @@
 
 <p>Cya</p>
 
-<b><em>[F.in]</em></b>
+<p><b><em>[F.in]</em></b></p>
+<p><small><em>https://github.com/fiorin/ptocss</em></small></p>
 
