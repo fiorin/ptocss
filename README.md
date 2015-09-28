@@ -20,11 +20,17 @@
 	 <code>&lt;div class=&quot;padding margin col-3 text-center&quot;&gt;&lt;p class=&quot;text-bold border-bottom&quot;&gt;content&lt;/p&gt;&lt;/div&gt;</code>
 </blockquote>
 
+<p>There's an alternative grid system too for a div with 33% width:</p>
+
+<blockquote>
+	 <code>&lt;div class=&quot;padding margin col-1of3 text-center&quot;&gt;&lt;p class=&quot;text-bold border-bottom&quot;&gt;content&lt;/p&gt;&lt;/div&gt;</code>
+</blockquote>
+
 <hr>
 
 <h5>Breakpoints</h5>
 
-<p>As defined there are four breakpoints for screen sizes : 320px for smartphones ; 768px for tablets ; 1366px for common pcs; 1367 hd monitors. Because, just fits better for me. If you have a better idea, we can discuss.</p>
+<p>As defined there are four breakpoints for screen sizes : 768px for tablets ; 992px for common pcs; 1200 hd monitors. Because, just fits better for bootstrap compatibility.</p>
 
 <hr>
 
