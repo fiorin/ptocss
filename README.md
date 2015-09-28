@@ -12,9 +12,9 @@
 
 <h5>Grid</h5>
 
-<p>This works with a 10 parts grid system at 4 size screens. Defaults margin and padding classes uses 10px multiples.</p>
+<p>This works with a 10 parts default grid system, and an alternative relative grid, at 3 size screens. Defaults margin and padding classes uses 14px multiples.</p>
 
-<p>This example below defines a 30% width <em>&lt;div&gt;</em> block with 10px margin and 10px padding. Internal content centered aligned.</p>
+<p>This example below defines a 30% width <em>&lt;div&gt;</em> block with 1em margin and 1em padding. Internal content centered aligned.</p>
 
 <blockquote>
 	 <code>&lt;div class=&quot;padding margin col-3 text-center&quot;&gt;&lt;p class=&quot;text-bold border-bottom&quot;&gt;content&lt;/p&gt;&lt;/div&gt;</code>
