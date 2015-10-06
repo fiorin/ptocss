@@ -42,12 +42,6 @@
 	<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/pto.css&quot; media=&quot;screen&quot;/&gt;</code>
 </blockquote>
 
-<p>Or the minified version.</p>
-
-<blockquote>
-	<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/pto.css&quot; media=&quot;screen&quot;/&gt;</code>
-</blockquote>
-
 <hr>
 
 <p>Soon, Im gonna finish a new extension bringing few utils, but gonna works like a complementar thing.</p>
