@@ -399,6 +399,7 @@ code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 	.text-italic     { font-style:italic; }
 	.text-bold       { font-weight:bold; }
 	.text-wrap       { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }
+	.text-nowrap       { white-space: normal; white-space: -moz-normal; white-space: -normal; white-space: -o-normal; word-wrap: normal; }
 	.text-overflow   { text-overflow:ellipsis; }
 /* -- link */
 	a.nodecoration:link, a.nodecoration:link, a.nodecoration:link { text-decoration : none;}
@@ -531,6 +532,34 @@ code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 /* -- list */
 	ul.list-striped { background-color: #fff; }
 	ul.list-striped:nth-child(even) { background-color: #eee; }
+	ul.clear-2 li:nth-child(2n+1){clear:both;}
+	ul.clear-3 li:nth-child(3n+1){clear:both;}
+	ul.clear-4 li:nth-child(4n+1){clear:both;}
+	ul.clear-5 li:nth-child(5n+1){clear:both;}
+	@media(max-width:767px){
+		ul.clear-2-xs li:nth-child(2n+1){clear:both;}
+		ul.clear-3-xs li:nth-child(3n+1){clear:both;}
+		ul.clear-4-xs li:nth-child(4n+1){clear:both;}
+		ul.clear-5-xs li:nth-child(5n+1){clear:both;}
+	}
+	@media(min-width:768px) AND (max-width:992px){
+		ul.clear-2-sm li:nth-child(2n+1){clear:both;}
+		ul.clear-3-sm li:nth-child(3n+1){clear:both;}
+		ul.clear-4-sm li:nth-child(4n+1){clear:both;}
+		ul.clear-5-sm li:nth-child(5n+1){clear:both;}
+	}
+	@media(min-width:992px) AND (max-width:1200px){
+		ul.clear-2-md li:nth-child(2n+1){clear:both;}
+		ul.clear-3-md li:nth-child(3n+1){clear:both;}
+		ul.clear-4-md li:nth-child(4n+1){clear:both;}
+		ul.clear-5-md li:nth-child(5n+1){clear:both;}
+	}
+	@media(min-width:1200px){
+		ul.clear-2-lg li:nth-child(2n+1){clear:both;}
+		ul.clear-3-lg li:nth-child(3n+1){clear:both;}
+		ul.clear-4-lg li:nth-child(4n+1){clear:both;}
+		ul.clear-5-lg li:nth-child(5n+1){clear:both;}
+	}
 /* -- table */
 	table.table-striped tbody tr:nth-child(even){ background-color: #eee; }
 	table.table-responsive { width:100%;max-width:100%;overflow-x:scroll; }
