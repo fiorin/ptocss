@@ -587,6 +587,10 @@ code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 	.opacity-m-hover:hover { opacity : .6; }
 	.opacity-l             { opacity : .3; }
 	.opacity-l-hover:hover { opacity : .3; }
+/* -- cursor */
+	.cursor-crosshair { cursor: crosshair;}
+	.cursor-pointer   { cursor: pointer;}
+	.cursor-wait      { cursor: wait;}
 /* -- basic text */
 	.basic-text p     { text-indent:0;margin-bottom:5px;line-height:20px;}
 	.basic-text ul    { padding-left:2em;}
