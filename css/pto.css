@@ -3,7 +3,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 @file    pto.css
 @author  fior.in
 @email   luciano@fior.in
-@update  02.02.16
+@update  16.02.16
 xxxxxxxxxxxxxxxxxxxxxxxxxx
 */
 
@@ -409,13 +409,13 @@ code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 	}
 	.vertical-middle,table>tbody>tr>td.vertical-middle { vertical-align : middle; }
 /* -- text */
-	.text-uppercase  { text-transform:uppercase; }
-	.text-capitalize { text-transform:capitalize; }
-	.text-lowercase  { text-transform:lowercase; }
-	.text-italic     { font-style:italic; }
-	.text-bold       { font-weight:bold; }
+	.text-uppercase  { text-transform : uppercase;  }
+	.text-capitalize { text-transform : capitalize; }
+	.text-lowercase  { text-transform : lowercase;  }
+	.text-italic     { font-style  :italic; }
+	.text-bold       { font-weight :bold;   }
 	.text-wrap       { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }
-	.text-nowrap       { white-space: normal; white-space: -moz-normal; white-space: -normal; white-space: -o-normal; word-wrap: normal; }
+	.text-nowrap     { white-space: normal; white-space: -moz-normal; white-space: -normal; white-space: -o-normal; word-wrap: normal; }
 	.text-overflow   { text-overflow:ellipsis; }
 /* -- link */
 	a.nodecoration:link, a.nodecoration:link, a.nodecoration:link { text-decoration : none;}
@@ -485,7 +485,7 @@ code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 	@media(min-width:768px) AND (max-width:992px){
 		.clear-right-sm { clear:right; }
 		.clear-left-sm  { clear:left;  }
-		.clear-none-sm  { clear:none; }
+		.clear-none-sm  { clear:none;  }
 		.clear-both-sm,
 		.clear-both-sm-2>li:nth-child(odd),
 		.clear-both-sm-3>li:nth-child(3n+1),
@@ -548,38 +548,39 @@ code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 /* -- list */
 	ul.list-striped { background-color: #fff; }
 	ul.list-striped:nth-child(even) { background-color: #eee; }
-	ul.clear-2 li:nth-child(2n+1){clear:both;}
-	ul.clear-3 li:nth-child(3n+1){clear:both;}
-	ul.clear-4 li:nth-child(4n+1){clear:both;}
-	ul.clear-5 li:nth-child(5n+1){clear:both;}
+	ul.clear-2 li:nth-child(2n+1){ clear : both; }
+	ul.clear-3 li:nth-child(3n+1){ clear : both; }
+	ul.clear-4 li:nth-child(4n+1){ clear : both; }
+	ul.clear-5 li:nth-child(5n+1){ clear : both; }
 	@media(max-width:767px){
-		ul.clear-2-xs li:nth-child(2n+1){clear:both;}
-		ul.clear-3-xs li:nth-child(3n+1){clear:both;}
-		ul.clear-4-xs li:nth-child(4n+1){clear:both;}
-		ul.clear-5-xs li:nth-child(5n+1){clear:both;}
+		ul.clear-2-xs li:nth-child(2n+1){ clear : both; }
+		ul.clear-3-xs li:nth-child(3n+1){ clear : both; }
+		ul.clear-4-xs li:nth-child(4n+1){ clear : both; }
+		ul.clear-5-xs li:nth-child(5n+1){ clear : both; }
 	}
 	@media(min-width:768px) AND (max-width:992px){
-		ul.clear-2-sm li:nth-child(2n+1){clear:both;}
-		ul.clear-3-sm li:nth-child(3n+1){clear:both;}
-		ul.clear-4-sm li:nth-child(4n+1){clear:both;}
-		ul.clear-5-sm li:nth-child(5n+1){clear:both;}
+		ul.clear-2-sm li:nth-child(2n+1){ clear : both; }
+		ul.clear-3-sm li:nth-child(3n+1){ clear : both; }
+		ul.clear-4-sm li:nth-child(4n+1){ clear : both; }
+		ul.clear-5-sm li:nth-child(5n+1){ clear : both; }
 	}
 	@media(min-width:992px) AND (max-width:1200px){
-		ul.clear-2-md li:nth-child(2n+1){clear:both;}
-		ul.clear-3-md li:nth-child(3n+1){clear:both;}
-		ul.clear-4-md li:nth-child(4n+1){clear:both;}
-		ul.clear-5-md li:nth-child(5n+1){clear:both;}
+		ul.clear-2-md li:nth-child(2n+1){ clear : both; }
+		ul.clear-3-md li:nth-child(3n+1){ clear : both; }
+		ul.clear-4-md li:nth-child(4n+1){ clear : both; }
+		ul.clear-5-md li:nth-child(5n+1){ clear : both; }
 	}
 	@media(min-width:1200px){
-		ul.clear-2-lg li:nth-child(2n+1){clear:both;}
-		ul.clear-3-lg li:nth-child(3n+1){clear:both;}
-		ul.clear-4-lg li:nth-child(4n+1){clear:both;}
-		ul.clear-5-lg li:nth-child(5n+1){clear:both;}
+		ul.clear-2-lg li:nth-child(2n+1){ clear : both; }
+		ul.clear-3-lg li:nth-child(3n+1){ clear : both; }
+		ul.clear-4-lg li:nth-child(4n+1){ clear : both; }
+		ul.clear-5-lg li:nth-child(5n+1){ clear : both; }
 	}
 /* -- table */
 	table.table-striped tbody tr:nth-child(even){ background-color: #eee; }
 	table.table-responsive { width:100%;max-width:100%;overflow-x:scroll; }
 /* -- opacity */
+	.noopacity             { opacity :  1; }
 	.noopacity:hover       { opacity :  1; }
 	.opacity-h             { opacity : .9; }
 	.opacity-h-hover:hover { opacity : .9; }
@@ -588,9 +589,9 @@ code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 	.opacity-l             { opacity : .3; }
 	.opacity-l-hover:hover { opacity : .3; }
 /* -- cursor */
-	.cursor-crosshair { cursor: crosshair;}
-	.cursor-pointer   { cursor: pointer;}
-	.cursor-wait      { cursor: wait;}
+	.cursor-crosshair { cursor: crosshair; }
+	.cursor-pointer   { cursor: pointer;   }
+	.cursor-wait      { cursor: wait;      }
 /* -- basic text */
 	.basic-text p     { text-indent:0;margin-bottom:5px;line-height:20px;}
 	.basic-text ul    { padding-left:2em;}
@@ -613,9 +614,17 @@ code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 	.basic-text h4,
 	.basic-text h5,
 	.basic-text h6{color:#222;font-weight:bold;}
+/* -- fixedbar */
+	.bar-fixed-top    { z-index:2;top:0;width:100%;left:0;right:0;position:fixed;     }
+	.bar-fixed-right  { z-index:2;top:0;height:100%;bottom:0;right:0;position:fixed;  }
+	.bar-fixed-bottom { z-index:2;right:0;width:100%;left:0;bottom:0;position:fixed;  }
+	.bar-fixed-left   { z-index:2;bottom:0;height:100%;left:0;right:0;position:fixed; }
 /* ------ */
 
 /* -- tricks */
+/* \/-- z-index */
+.z-index-front { z-index:9999; }
+.z-index-back  { z-index:0;    }
 /* \/-- clearfix */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
