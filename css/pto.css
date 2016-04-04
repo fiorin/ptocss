@@ -3,7 +3,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 @file    pto.css
 @author  fior.in
 @email   luciano@fior.in
-@update  16.02.16
+@update  04.04.16
 xxxxxxxxxxxxxxxxxxxxxxxxxx
 */
 
@@ -30,6 +30,7 @@ blockquote, q { quotes: "" ""; }
 /* ------ */
 
 /* -- general */
+html { font-size:100.01%; }
 p  { font-size: .9em ;}
 h1 { font-size: 2.6em; line-height: 2.45em; }
 h2 { font-size: 2.1em; line-height: 1.9em;  }
@@ -48,6 +49,7 @@ a:link, a:visited, a:hover{ text-decoration:none; }
 code{font-family: monaco, Consolas, 'Lucida Console', monospace;}
 .img-responsive{max-width:100%;max-height:100%;display:block;float:left;}
 .img-responsive.margin-auto{float:none;}
+a[href*="fior.in"])::after { content: "2197"; }
 /* ------ */
 
 /* -- box-sizing */
