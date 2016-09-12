@@ -3,7 +3,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 @file    pto.css
 @author  fior.in
 @email   luciano@fior.in
-@update  01.09.16
+@update  09.09.16
 xxxxxxxxxxxxxxxxxxxxxxxxxx
 */
 
@@ -641,28 +641,28 @@ a[href*="fior.in"]::after { content: "\2197"; }
 /* -- link */
 	a.nodecoration:link, a.nodecoration:link, a.nodecoration:link { text-decoration : none;}
 /* -- float */
-	.float-left  { float : left;  }
-	.float-right { float : right; }
-	.nofloat     { float : none;  }
+	.float-left  { float : left}
+	.float-right { float : right !important }
+	.nofloat     { float : none !important }
 	@media(max-width:767px){
-		.float-left-xs  { float : left;  }
-		.float-right-xs { float : right; }
-		.nofloat-xs     { float : none;  }
+		.float-left-xs  { float : left !important }
+		.float-right-xs { float : right !important }
+		.nofloat-xs     { float : none !important }
 	}
 	@media(min-width:768px) AND (max-width:992px){
-		.float-left-sm  { float : left;  }
-		.float-right-sm { float : right; }
-		.nofloat-sm     { float : none;  }
+		.float-left-sm  { float : left !important }
+		.float-right-sm { float : right !important }
+		.nofloat-sm     { float : none !important }
 	}
 	@media(min-width:992px) AND (max-width:1200px){
-		.float-left-md  { float : left;  }
-		.float-right-md { float : right; }
-		.nofloat-md     { float : none;  }
+		.float-left-md  { float : left !important }
+		.float-right-md { float : right !important }
+		.nofloat-md     { float : none !important }
 	}
 	@media(min-width:1200px){
-		.float-left-lg  { float : left;  }
-		.float-right-lg { float : right; }
-		.nofloat-lg     { float : none;  }
+		.float-left-lg  { float : left !important }
+		.float-right-lg { float : right !important }
+		.nofloat-lg     { float : none !important }
 	}
 /* -- position */
 	.position-absolute { position : absolute; }
