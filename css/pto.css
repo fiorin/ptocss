@@ -3,7 +3,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 @file    pto.css
 @author  fior.in
 @email   luciano@fior.in
-@update  09.09.16
+@update  14.10.16
 xxxxxxxxxxxxxxxxxxxxxxxxxx
 */
 
@@ -18,12 +18,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 /* -- general */
 html { font-size:100.01%; }
-p  { font-size: .9em ;}
-h1 { font-size: 2.6em; line-height: 2.45em; }
-h2 { font-size: 2.1em; line-height: 1.9em;  }
-h3 { font-size: 1.8em; line-height: 1.65em; }
-h4 { font-size: 1.65em; line-height: 1.4em; }
-h5 { font-size: 1.4em; line-height: 1.25em; }
+p  { font-size:    1em;}
+h1 { font-size:    2em; line-height:    2em; }
+h2 { font-size:  1.5em; line-height:  1.5em; }
+h3 { font-size: 1.17em; line-height: 1.17em; }
+h4 { font-size: 1.12em; line-height: 1.12em; }
+h5 { font-size:  .83em; line-height:  .83em; }
+h5 { font-size:  .75em; line-height:  .75em; }
 ::selection { background: #ddd; }
 ::-moz-selection { background: #ddd; }
 ::-webkit-selection { background: #ddd; }
@@ -583,6 +584,8 @@ a[href*="fior.in"]::after { content: "\2197"; }
 	.border-gray-l{border-color:#ccc;}
 	.border-gray-m{border-color:#999;}
 	.border-gray-h{border-color:#555;}
+/* -- border radius */
+	.border-round{border-radius:50%;}
 /* -- width */
 	.width-full     { width     : 100%; }
 	.width-full-min { min-width : 100%; width:100% !important; width: 100%; }
@@ -734,10 +737,10 @@ a[href*="fior.in"]::after { content: "\2197"; }
 		.clear-both-lg-5>li:nth-child(5n+1) { clear:both; }
 	}
 /* -- distance */
-	.absolute-top       { top    :  0; }
-	.absolute-right     { right  :  0; }
-	.absolute-left      { left   :  0; }
-	.absolute-bottom    { bottom :  0; }
+	.absolute-top, .absolute-all    { top    :  0; }
+	.absolute-right, .absolute-all  { right  :  0; }
+	.absolute-left, .absolute-all   { left   :  0; }
+	.absolute-bottom, .absolute-all { bottom :  0; }
 	@media(max-width:767px){
 		.absolute-top-xs    ,.absolute-all-xs { top    :  0; }
 		.absolute-right-xs  ,.absolute-all-xs { right  :  0; }
@@ -804,6 +807,7 @@ a[href*="fior.in"]::after { content: "\2197"; }
 		ul.clear-4-lg li:nth-child(4n+1){ clear : both; }
 		ul.clear-5-lg li:nth-child(5n+1){ clear : both; }
 	}
+	ul>li.divider:not(:last-child):after{content: ""; display: block; height: 0; width: 100%;border-top:1px solid #ccc;}
 /* -- table */
 	table.table-striped tbody tr:nth-child(even){ background-color: #eee; }
 	table.table-responsive { width:100%;max-width:100%;overflow-x:scroll; }
@@ -875,4 +879,5 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 /* \/-- others */
 sup, sub { vertical-align: baseline; position: relative; top: -0.4em;font-size:.75em;}
 sub { top: 0.4em; }
+.noresize{resize:none;}
 /* ------ */
