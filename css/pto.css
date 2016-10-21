@@ -807,7 +807,7 @@ a[href*="fior.in"]::after { content: "\2197"; }
 		ul.clear-4-lg li:nth-child(4n+1){ clear : both; }
 		ul.clear-5-lg li:nth-child(5n+1){ clear : both; }
 	}
-	ul>li.divider:not(:last-child):after{content: ""; display: block; height: 0; width: 100%;border-top:1px solid #ccc;}
+	ul>li.divider:not(:last-child):not(:first-child):after{content: ""; display: block; height: 0; width: 100%;border-top:1px solid #ccc;}
 /* -- table */
 	table.table-striped tbody tr:nth-child(even){ background-color: #eee; }
 	table.table-responsive { width:100%;max-width:100%;overflow-x:scroll; }
