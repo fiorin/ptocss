@@ -3,7 +3,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 @file    pto.css
 @author  fior.in
 @email   luciano@fior.in
-@update  14.10.16
+@update  03.02.17
 xxxxxxxxxxxxxxxxxxxxxxxxxx
 */
 
@@ -222,16 +222,16 @@ a[href*="fior.in"]::after { content: "\2197"; }
 	.grid-pto .push-4of6, .grid-pto .push-4of6-xs { left: 66.4% }
 	.grid-pto .push-5of6, .grid-pto .push-5of6-xs { left: 83%   }
 	@media(min-width:768px){
-		.grid-pto .push-1-sm  { left:-10%  }
-		.grid-pto .push-2-sm  { left:-20%  }
-		.grid-pto .push-3-sm  { left:-30%  }
-		.grid-pto .push-4-sm  { left:-40%  }
-		.grid-pto .push-5-sm  { left:-50%  }
-		.grid-pto .push-6-sm  { left:-60%  }
-		.grid-pto .push-7-sm  { left:-70%  }
-		.grid-pto .push-8-sm  { left:-80%  }
-		.grid-pto .push-9-sm  { left:-90%  }
-		.grid-pto .push-10-sm { left:-100% }
+		.grid-pto .push-1-sm  { left:10%  }
+		.grid-pto .push-2-sm  { left:20%  }
+		.grid-pto .push-3-sm  { left:30%  }
+		.grid-pto .push-4-sm  { left:40%  }
+		.grid-pto .push-5-sm  { left:50%  }
+		.grid-pto .push-6-sm  { left:60%  }
+		.grid-pto .push-7-sm  { left:70%  }
+		.grid-pto .push-8-sm  { left:80%  }
+		.grid-pto .push-9-sm  { left:90%  }
+		.grid-pto .push-10-sm { left:100% }
 		.grid-pto .push-1of1-sm { left:100%  }
 		.grid-pto .push-1of2-sm { left:50%   }
 		.grid-pto .push-1of3-sm { left:33.3% }
@@ -862,6 +862,8 @@ a[href*="fior.in"]::after { content: "\2197"; }
 .clearfix:after { clear: both; }
 /* \/-- vertical align */
 .flex{display: -ms-flexbox;display: -webkit-flex;display: flex;-ms-flex-align: center;-webkit-align-items: center;-webkit-box-align: center;align-items: center;}
+.flexbox{display:flex;}
+.flexbox>*{margin:auto;}
 @media(max-width:767px){
 	.flex.nodisplay-xs,.flex.nodisplay-hover-xs:hover{ display : none !important; }
 }
