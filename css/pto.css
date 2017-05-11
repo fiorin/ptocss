@@ -776,7 +776,14 @@ a[href*="fior.in"]::after { content: "\2197"; }
 	.overflow-auto-y   { overflow-y : auto;   }
 	.overflow-auto-x   { overflow-x : auto;   }
 /* -- list */
-	ul.list-inline li{display: inline-block;}
+	ul.list-unstyled > li,
+ 	ul.list-inline > li {margin: 0; padding: 0;}
+	ul.list-unstyled > li:before,
+	ul.list-unstyled    { padding-left: 0;list-style: none;}
+	ul.list-inline > li:before {content: normal;}
+	ul.list-inline li   {display: inline-block;}
+	ul.list-inline      {padding-left: 0;margin-left: -5px;list-style: none;}
+	ul.list-inline > li {display: inline-block;padding-right: 5px;padding-left: 5px;}
 	ul.list-striped { background-color: #fff; }
 	ul.list-striped:nth-child(even) { background-color: #eee; }
 	ul.clear-2 li:nth-child(2n+1){ clear : both; }
