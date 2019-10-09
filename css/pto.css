@@ -486,7 +486,11 @@ a[href*="fior.in"]::after { content: "\2197"; }
 	.nopadding-top   , .nopadding, .nopadding-vertical   { padding-top    : 0; }
 	.nopadding-right , .nopadding, .nopadding-horizontal { padding-right  : 0; }
 	.nopadding-bottom, .nopadding, .nopadding-vertical   { padding-bottom : 0; }
-	.nopadding-left  , .nopadding, .nopadding-horizontal { padding-left   : 0; }
+    .nopadding-left  , .nopadding, .nopadding-horizontal { padding-left   : 0; }
+    .half-padding-right, .half-padding-horizontal { padding-right : .5em; }
+    .half-padding-left, .half-padding-horizontal { padding-left  : .5em; }
+    .half-padding-top, .half-padding-vertical { padding-top     : .5em; }
+    .half-padding-bottom, .half-padding-vertical { padding-bottom  : .5em; }
 	@media(max-width:767px){
 		.padding-top-xs   , .padding-xs, .padding-vertical-xs   { padding-top    : 1em; }
 		.padding-right-xs , .padding-xs, .padding-horizontal-xs { padding-right  : 1em; }
